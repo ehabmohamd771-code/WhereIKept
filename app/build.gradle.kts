@@ -81,7 +81,7 @@ android {0
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
             // Don't process model files as resources
             excludes += "*.task"
-            excludes += "*.bin"
+            // excludes += "*.bin"  // DISABLED - we need ggml-tiny.bin in APK
             excludes += "*.tflite"
             excludes += "*.litertlm"
         }

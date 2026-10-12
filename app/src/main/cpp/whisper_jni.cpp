@@ -84,7 +84,7 @@ Java_com_whereikept_app_utils_LibWhisper_transcribe(JNIEnv *env, jobject thiz, j
     wparams.print_special = false;
     wparams.print_realtime = false;
     wparams.translate = false;
-    wparams.language = "en";
+    wparams.language = "ar";
     LOGI("  - Language: %s", wparams.language);
     LOGI("  - Translate: %s", wparams.translate ? "yes" : "no");
 
